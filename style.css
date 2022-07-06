@@ -1,0 +1,181 @@
+html, body {
+    height: 100%;
+    margin:0  11px;
+    padding: 0;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Gulzar', serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.main-image {
+    position: relative;
+    background: url(images/donation1.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container h1 {
+    margin: 0;
+    font-size: 66px;
+}
+.cen {
+    margin: 20px;
+    display: block;
+    font-size: 22px;
+}
+.button {
+    color: #ffffff;
+    padding: 12px 24px;
+    background: #e71414;
+    text-decoration: none;
+    border-radius: 12px;
+    
+}
+.today h1{
+    font-size: 45px;
+    text-align: center;
+}
+.today h3{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.taka{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+.box {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, .2);  
+}
+.donation-plan{
+    text-align: center;
+    margin: 50px;
+}
+.plan-box{
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    margin: 4px;
+}
+.plan-box h2{
+    text-align: left;
+}
+.plan-box p{
+    text-align: left;
+}
+#food{
+    background-color: beige;
+}
+#shelter{
+    background-color: pink;
+}
+#education{
+    background-color: aquamarine;
+}
+.red{
+    color: #e71414;
+    background-color: #e7bcbc;
+    border: #d68c8c;
+}
+.input-data{
+   text-align: center;
+   height: 40px;
+   width: 100%;
+   position: relative;
+   margin-bottom: 50px;
+}
+.input-data input{
+    height: 100%;
+    width: 25%;
+    border: none;
+    font-size: 20px;
+    border-bottom: 3px solid gray;
+}
+.input-data input label{
+    position: absolute;
+    bottom: 20px;
+}
+.now{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.btn{
+    color: #ffffff;
+    padding: 12px 24px;
+    background: #e71414;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(244, 17, 17), rgb(212, 28, 28));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.updates{
+    text-align:center;
+    padding-left: 400px;
+    padding-right: 400px;   
+}
+.email{
+    background: #e8c0c0;
+    height: 130px; 
+    width: 200px 400px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.use{
+    padding: 70px;
+}
+.btun{
+    color: #ffffff;
+    padding: 5px 14px;
+    background: #e71414;
+    text-decoration: none;
+    border-radius: 8px;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    width: auto;
+}
+.footer-content{
+    color: azure;
+    text-align: center;
+    justify-content: center;
+}
+.footer-content h2{
+    color: rgb(188, 65, 65);
+    font-family: 'Times New Roman', Times, serif;
+}
